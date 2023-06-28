@@ -27,7 +27,7 @@ function createNoteElement(id, content) {
     updateNote(id, element.value);
   });
 
-  element.addEventListener("dblclick", () => {
+  element.addEventListener("contextmenue", () => {
     const doDelete = confirm(
       "이 메세지를 지우시겠습니까?"
     );
